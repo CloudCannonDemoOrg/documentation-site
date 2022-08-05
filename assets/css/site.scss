@@ -1,0 +1,97 @@
+$break: "max-width: 800px";
+
+@import "code";
+@import "elements";
+@import "nav";
+@import "docnav";
+
+:root {
+    --pagefind-ui-scale: 0.8;
+
+    --text: #393939;
+    --focus: #393939;
+    --highlight: #b65a09;
+    --primary: #034AD8;
+}
+
+.search {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    padding-top: 40px;
+    align-items: flex-start;
+
+    @media ($break) {
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    aside {
+        max-width: 250px;
+        min-width: 250px;
+        flex: 1;
+        padding: 0 40px;
+        position: sticky;
+        top: 120px;
+
+        @media ($break) {
+            max-width: 100%;
+        }
+    }
+
+    main {
+        padding-left: 30px;
+        max-width: 800px;
+        flex: 3;
+        overflow: hidden;
+        margin: 0 auto;
+
+        @media ($break) {
+            padding-left: 0;
+            overflow: visible;
+        }
+
+        > :first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+
+.highlight {
+    padding: 20px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    pre {
+        margin: 0;
+    }
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+blockquote {
+    border: 2px solid #abacd0;
+    background-color: #f0f5ff;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
