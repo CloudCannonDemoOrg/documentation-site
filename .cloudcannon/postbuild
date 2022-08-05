@@ -1,13 +1,13 @@
 if [[ -v RESEED_BASEURL ]];  
 then  
   echo "🌱️  Digging the reseed hole…"
-  mv docs/public preseed
+  mv public preseed
   
   echo "🌱️  Running Reseed generator…"
   
-  npx reseed -s preseed -d docs/public -b $RESEED_BASEURL
+  npx reseed -s preseed -d public -b $RESEED_BASEURL
 else
   echo "🪴️  No Reseed baseurl set with RESEED_BASEURL"
 fi  
 
-npx -y pagefind --source docs/public
+npx -y pagefind --source public
