@@ -1,10 +1,12 @@
 ---
-date: 2022-06-01T00:00:00.000Z
+date: 2022-06-01T00:00:00Z
 title: Pagefind
 nav_title: Home
 weight: 1
 ---
 Pagefind is a fully static search library that aims to perform well on large sites, while using as little of your users' bandwidth as possible, and without hosting any infrastructure.
+
+TEST
 
 Pagefind runs after Hugo, Eleventy, Jekyll, Next, Astro, SvelteKit, or **any other SSG**. The installation process is always the same: Pagefind only requires a folder containing the built static files of your website, so in most cases no configuration is needed to get started.
 
