@@ -1,16 +1,18 @@
 ---
-date: 2022-06-01
-title: "Hosting Pagefind"
-nav_title: "Hosting Pagefind"
+date: 2022-06-01T00:00:00Z
+title: Hosting Pagefind
+nav_title: Hosting Pagefind
 nav_section: Notes
 weight: 80
+color: '#caa1a1'
 ---
-
 Pagefind outputs a static bundle directory to your built site, and no hosting configuration is required.
 
 ## Compression
 
 Pagefind handles compression of the files in the bundle directly, so no server gzip support is required.
+
+> Hi there
 
 ## Content Security Policy (CSP)
 
@@ -20,7 +22,6 @@ The most widely-supported solution at the current moment is to ensure your Conte
 
 A [proposal exists](https://github.com/WebAssembly/content-security-policy/blob/main/proposals/CSP.md) for `script-src 'wasm-unsafe-eval'`, which is supported in Chrome, Firefox, and Edge, but has not yet shipped to a stable Safari version.
 
-> In the future, hopefully a `wasm-src` attribute / SRI hash validation will be supported in CSP, as proposed in [chrome#961485](https://bugs.chromium.org/p/chromium/issues/detail?id=961485), [chrome#945121](https://bugs.chromium.org/p/chromium/issues/detail?id=945121).  
-[Open an issue](https://github.com/CloudCannon/pagefind/issues) if this is now the case!
+> In the future, hopefully a `wasm-src` attribute / SRI hash validation will be supported in CSP, as proposed in [chrome\#961485](https://bugs.chromium.org/p/chromium/issues/detail?id=961485), [chrome\#945121](https://bugs.chromium.org/p/chromium/issues/detail?id=945121).&lt;br&gt;[Open an issue](https://github.com/CloudCannon/pagefind/issues) if this is now the case\!
 
 If you're using the Pagefind UI snippet as documented you will also need `unsafe-inline`, but this could also be addressed by moving the Pagefind initialization into one of your existing javascript files.
