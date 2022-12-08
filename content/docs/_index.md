@@ -9,6 +9,8 @@ Pagefind runs after your static generator, and outputs a static search bundle to
 
 Since Pagefind indexes your site *after* it builds, we'll do things slightly out of order and add search UI first — so that it already exists on our built site when we go to index it.
 
+> This is a small docs edit.
+
 Pagefind provides a prebuilt search UI out of the box. Add the following snippet to a page of your choice:
 
 ```html
