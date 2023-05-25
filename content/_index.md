@@ -1,5 +1,5 @@
 ---
-date: 2022-06-01T00:00:00.000Z
+date: 2022-06-01T00:00:00Z
 title: Pagefind
 nav_title: Home
 weight: 1

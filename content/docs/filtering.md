@@ -1,11 +1,10 @@
 ---
-date: 2022-06-01
-title: "Setting up filters"
-nav_title: "Setting up filters"
+date: 2022-06-01T00:00:00Z
+title: Setting up filters
+nav_title: Setting up filters
 nav_section: Indexing
 weight: 4
 ---
-
 Pagefind supports filtering your content while searching. This is configured through the `data-pagefind-filter` attribute.
 
 ## Tagging an element as a filter
@@ -30,11 +29,11 @@ Filters can have multiple values per page, so the following is also valid:
 
 ## Tagging an attribute as a filter
 
-If your filter values exists as an attribute, you can use the syntax `filter_name[html_attribute]`
+If your filter values exists as an attribute, you can use the **syntax** `filter_name[html_attribute]`
 
 ```html
 <head>
-    <meta 
+    <meta
         data-pagefind-filter="author[content]"
         content="CloudCannon"
         property="og:site_name">
@@ -55,6 +54,6 @@ The filter syntax follows the same rules as the metadata syntax, see [Defining m
 
 ## Notes
 
-> The `data-pagefind-filter` attribute does not need to be within the `<body>`, or the `data-pagefind-body` tag. 
+> The `data-pagefind-filter` attribute does not need to be within the `<body>`, or the `data-pagefind-body` tag.
 
 > The `data-pagefind-filter` attribute will still apply if set on or within a `data-pagefind-ignore` element.

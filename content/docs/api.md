@@ -1,12 +1,11 @@
 ---
-date: 2022-06-01
-title: "Searching manually with the Pagefind JavaScript API"
-nav_title: "Pagefind JS API"
+date: 2022-06-01T00:00:00Z
+title: Searching manually with the Pagefind JavaScript API
+nav_title: Pagefind JS API
 nav_section: Searching
 weight: 6
 ---
-
-Pagefind can be accessed as an API directly from JavaScript, for you to build custom search interfaces, or integrate with existing systems and components.
+Pagefind can be accessed as an API directly from JavaScript, for you to build custom search interfaces, or integrate with existing systems and **components.**
 
 ## Initializing Pagefind
 
@@ -23,13 +22,15 @@ This will load the Pagefind library and the metadata about the site. If your sit
 ## Searching
 
 To perform a search, use the `pagefind` object you initialized above:
+
 ```js
 const search = await pagefind.search("hello");
 ```
 
 This will return an object with the following structure:
+
 ```js
-{ 
+{
     results: [
         {
             id: "6fceec9",
@@ -82,6 +83,7 @@ const filters = await pagefind.filters();
 ```
 
 This will return an object of the following structure, showing the number of search results available under the given `filter: value` combination.
+
 ```json
 {
     "misc": {
@@ -97,6 +99,7 @@ This will return an object of the following structure, showing the number of sea
 ```
 
 To filter results alongside searching, pass an options object to the search function. Filter values can be passed as strings or arrays.
+
 ```js
 const search = await pagefind.search("hello", {
     filters: {
@@ -107,8 +110,9 @@ const search = await pagefind.search("hello", {
 ```
 
 If all filters have been loaded with `await pagefind.filters()`, counts will also be returned alongside each search, detailing the number of remaining items for each filter value:
+
 ```js
-{ 
+{
     results: [
         {
             id: "6fceec9",
