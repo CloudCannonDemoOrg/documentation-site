@@ -11,7 +11,7 @@ Since **Pagefind** indexes your site *after* it builds, we'll do things slightly
 
 > This is a small docs edit.
 
-Pagefind provides a prebuilt search UI out of the box. Add the following snippet to a page of your choice:
+**Pagefind** provides a prebuilt search UI out of the box. Add the following snippet to a page of your choice:
 
 ```html
 <link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
