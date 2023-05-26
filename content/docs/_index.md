@@ -5,7 +5,7 @@ nav_title: Getting Started
 nav_section: Root
 weight: 7
 ---
-**Pagefind** runs after your static generator, and outputs a static search bundle to your generated site. Unlike many search libraries, you don't need to build a search index by hand — the index is generated for you from your generated site.&nbsp;&nbsp;
+Pagefind runs after your static generator, and outputs a static search bundle to your generated site. Unlike many search libraries, you don't need to build a search index by hand — the index is generated for you from your generated site.&nbsp; &nbsp;
 
 Since Pagefind indexes your site *after* it builds, we'll do things slightly out of order and add search UI first — so that it already exists on our built site when we go to index it.
 
