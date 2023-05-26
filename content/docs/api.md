@@ -5,7 +5,7 @@ nav_title: Pagefind JS API
 nav_section: Searching
 weight: 6
 ---
-Pagefind can be accessed as an API directly from JavaScript, for you to build custom search interfaces, or integrate with existing systems and **components.**
+**Pagefind** can be accessed as an API directly from JavaScript, for you to build custom search interfaces, or integrate with existing systems and **components.**
 
 ## Initializing Pagefind
 
