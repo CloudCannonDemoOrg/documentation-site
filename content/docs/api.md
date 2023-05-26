@@ -21,7 +21,7 @@ This will load the Pagefind library and the metadata about the site. If your sit
 
 ## Searching
 
-To perform a search, use the `pagefind` object you initialized above:
+To **perform** a search, use the `pagefind` object you initialized above:
 
 ```js
 const search = await pagefind.search("hello");
