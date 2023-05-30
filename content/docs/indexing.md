@@ -11,7 +11,7 @@ You can control how your site is indexed by using various `data-pagefind-*` tags
 
 By default, Pagefind indexes all content inside your `<body>` element, with some exceptions — elements such as `<nav>`, `<script>`, and `<form>` will be skipped automatically.
 
-THIS IS ANOTHER TEST
+{{< tweet user="" id="" >}}
 
 To refine indexing further, you can tag your main content area with `data-pagefind-body`\:
 
