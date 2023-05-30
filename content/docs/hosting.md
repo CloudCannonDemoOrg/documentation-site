@@ -10,7 +10,9 @@ Pagefind outputs a static bundle directory to your built site, and no hosting co
 
 ## Compression
 
-Pagefind handles compression of the files in the bundle directly, so no server gzip support is required.
+Pagefind handles compression of the files in the bundle directly, so no server gzip support is!<br>
+
+{{< tweet user="datadoghq" id="1651247325086380035" >}}
 
 ## Content Security Policy (CSP)
 
