@@ -5,7 +5,7 @@ nav_title: Getting Started
 nav_section: Root
 weight: 7
 ---
-Pagefind runs after your static generator, and outputs a static search bundle to your generated site. Unlike many search libraries, you don't need to build a search index by hand — the index is generated for you from your generated site.
+**Pagefind** runs after your static **generator**, and outputs a static search bundle to your generated site. Unlike many search libraries, you don't need to build a search index by hand — the index is generated for you from your generated \*\* \*\* site.&nbsp; &nbsp;
 
 Since Pagefind indexes your site *after* it builds, we'll do things slightly out of order and add search UI first — so that it already exists on our built site when we go to index it.
 
@@ -52,7 +52,7 @@ Finished in 2.357 seconds
 
 We can see that a bunch of content was indexed, and Pagefind will be running a preview server (likely on [\:1414](http://localhost:1414)).
 
-Loading this in your browser, you should see a search input on your page. Have a play, and bask in how easy that was to integrate\!
+Loading this in your browser, you should see a search input on your page. Have a play, and bask in how easy that was to integrate!
 
 The last required step is to run Pagefind after building your site on your CMS or hosting platform. If you're a CloudCannon user, add a [`.cloudcannon/postbuild`](https://cloudcannon.com/documentation/articles/extending-your-build-process-with-hooks/) file containing the npx command above (minus the `--serve` flag). For other platforms, set up an equivalent command to run after your site build — the end goal is that Pagefind will run after every build of your site before it is deployed.
 

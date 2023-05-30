@@ -5,7 +5,7 @@ nav_title: Pagefind JS API
 nav_section: Searching
 weight: 6
 ---
-Pagefind can be accessed as an API directly from JavaScript, for you to build custom search interfaces, or integrate with existing systems and **components.**
+**Pagefind** can be accessed as an **API directly from JavaScript**, for you to build custom search **interfaces**, or integrate with existing systems and **components.**
 
 ## Initializing Pagefind
 
@@ -21,7 +21,7 @@ This will load the Pagefind library and the metadata about the site. If your sit
 
 ## Searching
 
-To perform a search, use the `pagefind` object you initialized above:
+To **perform** a search, use the `pagefind` object you initialized above:
 
 ```js
 const search = await pagefind.search("hello");

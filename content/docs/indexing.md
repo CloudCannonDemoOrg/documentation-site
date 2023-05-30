@@ -9,9 +9,7 @@ You can control how your site is indexed by using various `data-pagefind-*` tags
 
 ## Limiting what content is indexed
 
-By default, Pagefind indexes all content inside your `<body>` element, with some exceptions — elements such as `<nav>`, `<script>`, and `<form>` will be skipped automatically.
-
-THIS IS ANOTHER TEST
+By default, Pagefind indexes all content inside your `<body>` element, with some exceptions — elements such as `<nav>`, `<script>`, and `<form>` will be skipped automatically!​​​​​
 
 To refine indexing further, you can tag your main content area with `data-pagefind-body`\:
 
